@@ -836,3 +836,8 @@ div[class^="expandedFolderIconWrapper"]>svg {
 ::-webkit-scrollbar-thumb {
     background-color: var(--accent) !important;
 }
+
+
+.vc-membercount {
+    margin-bottom: none !important;
+}
