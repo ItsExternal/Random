@@ -838,6 +838,7 @@ div[class^="expandedFolderIconWrapper"]>svg {
 }
 
 
-.vc-membercount {
-    margin-bottom: none !important;
+
+div[class^="vc-membercount"] {
+margin-bottom: none !important;
 }
