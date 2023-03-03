@@ -836,3 +836,10 @@ div[class^="expandedFolderIconWrapper"]>svg {
 ::-webkit-scrollbar-thumb {
     background-color: var(--accent) !important;
 }
+
+
+
+/* Fix for Title on Desktop App External#0001 */
+.theme-dark {
+--background-floating: #504945 !important;
+}
