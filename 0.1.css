@@ -844,3 +844,8 @@ div[class^="expandedFolderIconWrapper"]>svg {
 .theme-dark {
 --background-floating: #504945 !important;
 }
+
+/* Fix for hovering deafen/mute background etc on Desktop App External#0001 */
+div[class*="container"] > * > * > div[class*="content"] {
+    background-color: transparent !important;
+}
