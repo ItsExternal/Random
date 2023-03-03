@@ -1,0 +1,191 @@
+/* ==UserStyle==
+@name           Discord Amoled Theme
+@namespace      USO Archive
+@author         Logic_Mastermind
+@description    `Customize Discord's appearance to an easing dark amoled theme.This is still in development, so expect bugs etc.Feedback is greatly appreciated, so if you've found any issues, you can leave a review and I'll get back to it as soon as possible.Make sure to frequently update this theme as new updates happen every few days.`
+@version        20211124.17.13
+@license        CC-BY-4.0
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document url("http://www.w3.org/"),
+               url-prefix("http://www.w3.org/Style/"),
+regexp("https://(canary\\.discord|ptb\\.discord|discord)\\.com/(channels|library|store|app|guild-discovery).*")
+{
+.theme-dark {
+    --header-primary: #a89985;
+    --header-secondary: #a89985;
+    --text-normal: #a89985;
+    --text-muted: #a89985;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #d9dbdc;
+    --interactive-active: #fff;
+    --interactive-muted: #454a52;
+    --background-primary: #282828;
+    --background-secondary: #282828;
+    --background-secondary-alt: #282828;
+    --background-tertiary: #282828;
+    --background-accent: #a89985;
+    --background-floating: #282828;
+    --background-mobile-primary: #282828;
+    --background-mobile-secondary: #282828;
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgb(42 43 44);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+    --scrollbar-thin-thumb: #282828;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #282828;
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+    --scrollbar-auto-scrollbar-color-thumb: #282828;
+    --scrollbar-auto-scrollbar-color-track: #a89985;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --channels-default: #959596;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #1e2023;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #5f6266;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #1c1d1f;
+    --deprecated-text-input-prefix: #dcddde;
+    --background-modal: #282828;
+    --background-footer: #282828;
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+    font-size: 16px;
+    padding: 8px;
+    color: var(--text-normal);
+}
+
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .header-2bNvm4 {
+    background-color: var(--background-footer);
+}
+
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+    background-color: var(--background-modal);
+    color: #282828;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: var(--background-modal);
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--background-secondary-accent);
+    color: #fff;
+}
+
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: var(--background-secondary);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.theme-dark .uploadModal-2ifh8j {
+    background-color: var(--background-modal);
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+.theme-dark .footer-3N9rgh {
+    background-color: var(--background-footer);
+    color: #282828;
+}
+
+.theme-dark .body-3PNusm {
+    background-color: var(--background-accent);
+    color: #b9bbbe;
+}
+
+.peopleColumn-29fq28 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    background-color: var(--background-primary);
+}
+
+.theme-dark .message-2qRu38 {
+    background-color: var(--background-modal);
+    -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+.peopleList-3c4jOR {
+    padding-bottom: 8px;
+    margin-top: 8px;
+    background-color: var(--background-primary);
+}
+
+.theme-dark .footer-3mqk7D {
+    background-color: var(--background-footer);
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: var(--background-footer);
+    -webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+}
+
+.theme-dark .autocomplete-1vrmpx {
+    background-color: #282828;
+}
+
+.theme-dark .selected-1Tbx07 {
+    background-color: #282828;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primary);
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: var(--background-primary);
+}
+}
+/* i really want this to be global */
