@@ -1,37 +1,5 @@
-//META{"name":"Gruvbox Hard Dark","description":"Themes your Discord using Gruvbox colors.","author":"Ethan McTague","version":"1.0"}*//
-/* BetterDiscord Gruvbox Theme - By Ethan McTague
+//META{"name":"Duvbox","description":"A Discord theme based on Gruvbox, a Vim theme","author":"CircuitRCAY","version":"1.6.0"}*//
 
-
-   Compatible with the latest version of Discord (as of Jan 23, 2020.)
-
-
-   Copyright 2020 Ethan McTague <ethan@tague.me>
-   Licensed under the BSD 3-clause license.
-   
-
-   Based on the Gruvbox color scheme by Pavel Pertsev: https://github.com/morhetz/gruvbox
-
-
-   Using CSS from highlight.js themes, to style code blocks: https://highlightjs.org/
-   highlight.js is licensed under the BSD 3-clause license - see its section in the code for more details.
-   
-
-   Be aware: BetterDiscord use is against the discord TOS.
-             I am not responsible for your use of BetterDiscord or of this theme.
-
-             [ ...discord, if you want to add builtin color scheme support, hmu :) ]
-             
-
-   Installation:
-    1. Install BetterDiscord.
-    2. Go to "Themes" in discord's settings.
-    3. Select "Open Themes Folder", and save this file there as: gruvbox.theme.css
-    4. Go back to discord and switch the theme on!
-
-*/
-
-
-/* Set basic color variables. Some parts of Discord don't use these, so we need to do more after... */
 :root {
     --interactive-normal: #ebdbb2;
     --text-normal: #ebdbb2;
@@ -42,8 +10,6 @@
     --deprecated-panel-background: #161818;
     --channeltextarea-background: #32302f;
 }
-
-/* Popout / menu colors. */
 .da-popouts .da-container, .da-friendsTableHeader, .da-friendsTable, .da-autocomplete, .da-themedPopout, .da-header, .da-footer, .da-userPopout > *, .da-systemPad, .da-autocompleteHeaderBackground {
   background-color: var(--background-secondary) !important;
   border-color: transparent !important;
