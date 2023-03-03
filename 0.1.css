@@ -32,7 +32,8 @@ pre > code {
     --header-secondary: #bdae93;
     --header-spotify: #b8bb26;
     --interactive-normal: #ebdbb2;
-    --interactive-hover: #bdae93;
+   /* --interactive-hover: #bdae93; */ /* Original */
+    --interactive-hover: #fbf1c7;
     --interactive-active: #fbf1c7;
     --accent: #83c07c;
     --accent2: #83a598;
