@@ -858,4 +858,8 @@ div[class*="container"] > * > * > div[class*="content"] {
 /* Temporary fix for user info spotify playing title background / External#0001 */
 div[class*="header"] {
     background-color: transparent !important;
+}   
+
+div[class*="contents"] > div[class*="flex"] {
+    background-color: transparent !important;
 }
