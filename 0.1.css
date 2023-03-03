@@ -849,3 +849,8 @@ div[class^="expandedFolderIconWrapper"]>svg {
 div[class*="container"] > * > * > div[class*="content"] {
     background-color: transparent !important;
 }
+
+.button-12Fmur.enabled-9OeuTA:hover {
+    color: #fbf1c7;
+    background-color: var(--background-modifier-selected);
+}
