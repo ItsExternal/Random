@@ -18,6 +18,41 @@ pre > code {
 
 /** End Iosevka */
 
+/* /////////// Added by External#0001 \\\\\\\\\\ */
+ :root { /* Added by External#0001 */
+    /* Change these fonts to what you have installed */
+    --fontMain: "Terminus (TTF) for Windows";
+    --fontCode: "Fira Code";
+    /*  ----  */
+    --bg1: #282828;
+    --bg2: #222222;
+    --bg3: #1d2021;
+    --bgcode: #303030;
+    --button: #daddee1a;
+    /*  ----  */
+    --fg2: #a89984;
+    --fg1: #fbf1c7;
+    --disabled: #696969;
+    /*  ----  */
+    --accent: #83c07c;
+    --accent2: #83a598;
+    --contrast: #ffffff;
+    /*  ----  */
+    --red: #fb4934;
+    --purple: #b16286;
+    --blue: #458588;
+    --cyan: #7acfe4;
+    --green: #83c07c;
+    --yellow: #fabd2f;
+    --border1: #223344;
+    --border2: #334455;
+    /*  ----  */
+    -moz-tab-size: 4;
+    tab-size: 4;
+}
+
+
+
 .theme-dark {
     --background-primary: #282828;
     --background-secondary: #3c3836;
@@ -35,6 +70,7 @@ pre > code {
    /* --interactive-hover: #bdae93; */ /* Original */
     --interactive-hover: #fbf1c7;
     --interactive-active: #fbf1c7;
+    --interactive-muted: var(--fg2); /* Added by External#0001 */
     --accent: #83c07c;
     --accent2: #83a598;
     
