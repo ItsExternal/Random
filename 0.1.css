@@ -902,5 +902,5 @@ div[class*="contents"] > div[class*="flex"] {
 
 /* Pop-up modal fix / External#0001 */
 .root-1CAIjD {
-    background-color: transparent !important;
+  /* background-color: transparent !important; */
 }
