@@ -899,3 +899,8 @@ div[class*="header"] {
 div[class*="contents"] > div[class*="flex"] {
     background-color: transparent !important;
 }
+
+/* Pop-up modal fix / External#0001 */
+.root-1CAIjD {
+    background-color: transparent !important;
+}
